@@ -1,0 +1,95 @@
+body,html{
+  height:100%;
+  margin:0;
+  padding:0
+}
+
+.chat-box{
+  height:78vh;
+  width:100vw;
+  display:flex;
+  flex-direction:column;
+  border:none;
+  border-radius:0;
+  background:#f9f9f9}
+  
+  .messages{
+    flex:1;
+    padding:10px;
+    overflow-y:auto;
+    display:flex;
+    flex-direction:column;
+    background-color:#fff
+  }
+    .message{
+      padding:10px 15px;
+      margin:5px 0;
+      border-radius:20px;
+      word-break:break-word;
+      display:inline-block;
+      max-width:60%
+    }
+    
+    div.message.left{
+      background-color:#fff!important;
+      align-self:flex-start
+    }
+    
+    div.message.right{
+      background-color:#fff!important;
+      align-self:flex-end
+    }
+    
+    .input-area{
+      display:flex;
+      padding:10px;
+      border-top:1px solid #ccc;
+      background-color:#fff
+    }
+    
+    .input-area input{
+      flex:1;
+      padding:10px;
+      border:1px solid #aaa;
+      border-radius:5px;
+      margin-right:10px;
+      outline:0;
+      width:100%
+    }
+    
+    .input-area button{
+      padding:10px 20px;
+      border:none;
+      background-color:#8d8dc8;
+      color:#fff;
+      font-weight:700;
+      border-radius:5px;
+      cursor:pointer;
+      width:auto
+    }
+    
+    .input-area button:hover{
+      background-color:#fff;
+      color:#000
+    }
+    
+    .Username{
+      font-size:20px
+    }
+    
+    .message-content{
+      display:flex;
+      justify-content:center;
+      background-color:#c8c9ee;
+      padding:8px;
+      border-radius:10px;
+      font-size:larger;
+      font-family:auto;
+      margin-top:inherit
+    }
+    
+    .profilepic{
+      width:40px;
+      height:40px;
+      border-radius:50%
+    }

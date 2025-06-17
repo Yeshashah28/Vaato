@@ -1,0 +1,102 @@
+.custom-navbar {
+  background-color: #6b6db5a8;
+}
+.chat-button{
+  width: auto;
+}
+.search-button{
+  width:max-content;
+}
+
+.offcanvas {
+  background-color: #c6c9ee !important;
+  color: #000;
+}
+
+.offcanvas-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #3a3c7a;
+}
+
+.chat-card {
+  background-color: #6b6db5a8;
+  border-radius: 12px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.chat-card:hover {
+  background-color: #4d4f91a8;
+}
+
+.chat-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.chat-message {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #f0f0f0;
+}
+
+.chat-card img {
+  border: 2px solid white;
+  object-fit: cover;
+}
+
+.chat-list {
+  max-height: 75vh;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.chatbox-wrapper {
+  margin-top: 80px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#welcome-message {
+ position: fixed;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #8d8dc8;
+  padding: 20px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1055;
+  animation: fadeOutUp 3s ease forwards;
+}
+
+@keyframes fadeOutUp {
+  0% {
+              opacity: 0;
+              transform: translateY(-10px);
+            }
+            15% {
+              opacity: 1;
+              transform: translateY(0);
+            }
+            85% {
+              opacity: 1;
+              transform: translateY(0);
+            }
+            100% {
+              opacity: 0;
+              transform: translateY(-10px);
+              display: none;
+            }
+}
+
+
