@@ -1,4 +1,11 @@
-💬 Vaato - Group Chat Application
+# 💬 Vaato - Group Chat App
+
+![React](https://img.shields.io/badge/Frontend-ReactJS-blue?logo=react)
+![Node](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen?logo=mongodb)
+![Socket.io](https://img.shields.io/badge/Real--Time-Socket.io-black?logo=socket.io)
+![License](https://img.shields.io/badge/Built%20By-Learning%20Via%20YouTube%20&%20ChatGPT-red)
+
 Vaato is a real-time chat application built by learning through YouTube tutorials and guidance from ChatGPT. It supports powerful group chat features with a clean and responsive UI. The project was created as part of my self-learning journey to understand full-stack development and real-time communication.
 
 🚀 Features
