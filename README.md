@@ -4,7 +4,6 @@
 ![Node](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen?logo=mongodb)
 ![Socket.io](https://img.shields.io/badge/Real--Time-Socket.io-black?logo=socket.io)
-![Built By](https://img.shields.io/badge/Built%20By-YouTube%20%2B%20ChatGPT-red)
 
 ---
 
