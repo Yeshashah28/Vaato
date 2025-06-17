@@ -1,4 +1,4 @@
-# 💬 Vaato - Group Chat App
+# 💬 Vaato - A Chat Web Application
 
 ![React](https://img.shields.io/badge/Frontend-ReactJS-blue?logo=react)
 ![Node](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)
